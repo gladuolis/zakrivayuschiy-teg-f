@@ -93,7 +93,7 @@
   color: var(--color);
   background-color: var(--background-color);
   font-size: var(--text-size);
-  border-block-end: var(--main-border)
+  border-block-end: var(--main-border);
 }
 
 .article__img-wrapper {
@@ -374,4 +374,5 @@ body:has(.floppy_dialog[open]) {
 
   .dialog_floppy_svg {
     width: 55px;
+  }
 }
