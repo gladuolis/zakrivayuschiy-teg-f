@@ -170,6 +170,10 @@
   margin-block-end: 25px;
 }
 
+.article__paragraph {
+  line-height: 21px;
+}
+
 .article__button-wrapper {
   display: flex;
   justify-content: flex-end;
@@ -273,7 +277,7 @@
   border: var(--main-border);
   padding: 30px;
   inline-size: 354px;
-  margin-block-start: 99px;
+  /* margin-block-start: 99px; */
 }
 
 .floppy_dialog[open]::backdrop {
@@ -369,7 +373,7 @@ body:has(.floppy_dialog[open]) {
   .floppy_dialog[open] {
     min-inline-size: 341px;
     padding: 30px 40px;
-    margin-block-start: 235px;
+    /* margin-block-start: 235px; */
   }
 
   .dialog_floppy_svg {
